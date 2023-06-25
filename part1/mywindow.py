@@ -5,9 +5,16 @@ import sys
 # Manages control flow
 app = QApplication(sys.argv)
 
-# window types, Widget, MainWIndow, Dialog
+"""
+QWidget: base class for all ui objects. Recieves mouse, keyboard
+    and other events from the window system and paints a representation
+    of itself on screen
+
+"""
+
 window = QWidget()
 
 window.show()
 
 sys.exit(app.exec())
+
